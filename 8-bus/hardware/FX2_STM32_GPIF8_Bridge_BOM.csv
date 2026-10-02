@@ -1,0 +1,38 @@
+Qty,References,Value,Footprint,Manufacturer P/N,Description
+3,C1 C20 C39,10uF,0805,,capacitor
+1,C2,22uF tant,Tantalum_3528,,capacitor
+17,C3 C13 C14 C15 C16 C17 C18 C19 C22 C23 C33 C34 C35 C36 C37 C38 C41,100nF,0603,,capacitor
+1,C4,4.7nF,0603,,
+2,C10 C11,12pF,0603,,
+1,C12,1uF,0603,,
+2,C21 C40,1uF,0603,,capacitor
+2,C30 C31,20pF,0603,,
+1,C32,100nF,0603,,
+1,D1,green,LED_0603,,LED green
+1,D2,red,LED_0603,,LED red
+1,D4,green,LED_0603,,heartbeat
+1,D5,yellow,LED_0603,,user LED
+1,F1,500mA PTC,Fuse_1206,Bourns MF-MSMF050-2,resettable fuse
+1,FB1,600R@100MHz,0805,Murata BLM21PG601SN1,ferrite bead 1A
+2,FB2 FB3,600R@100MHz,0805,Murata BLM18PG601SN1,
+1,J1,USB_B_Micro,USB_Micro-B_Molex_105017-0001,Molex 105017-0001,USB Micro-B receptacle
+1,J2,SWD 1x5 2.54mm,PinHeader_1x05_P2.54mm,,ST-Link SWD header
+1,J3,UART 1x3 2.54mm,PinHeader_1x03_P2.54mm,,debug UART (3.3 V levels)
+1,J4,1x6 2.54mm,PinHeader_1x06_P2.54mm,,test header
+1,JP1,EEPROM,PinHeader_1x02_P2.54mm,,"jumper, open = boot without EEPROM"
+1,JP2,BOOT0,PinHeader_1x02_P2.54mm,,"jumper, closed = system bootloader"
+1,R1,1M,0603,,
+4,R2 R15 R33 R34,1k,0603,,
+11,R10 R11 R12 R30 R31 R32 R50 R51 R52 R53 R54,10k,0603,,
+2,R13 R14,2.2k,0603,,
+1,R16,100R,0603,,
+2,RN1 RN2,4x33R,R_Array_Convex_4x0603,,4x resistor array
+2,SW1 SW2,RESET,SW_SPST_TL3342,,tactile switch
+5,TP1 TP2 TP3 TP10 TP11,TP,TestPoint_Pad_D1.5mm,,test point
+1,U1,CY7C68013A-56PVXC,SSOP-56_7.5x18.5mm_P0.635mm,Infineon CY7C68013A-56PVXC,EZ-USB FX2LP USB 2.0 controller
+1,U2,24LC128-I/SN,SOIC-8_3.9x4.9mm_P1.27mm,Microchip 24LC128-I/SN,128 kbit I2C EEPROM
+1,U3,AMS1117-3.3,SOT-223-3_TabPin2,AMS1117-3.3,LDO 3.3V 1A
+1,U4,USBLC6-2SC6,SOT-23-6,ST USBLC6-2SC6,USB ESD protection
+1,U5,STM32F103VET6,LQFP-100_14x14mm_P0.5mm,ST STM32F103VET6,Cortex-M3 MCU 512K flash 64K RAM
+1,Y1,24MHz,Crystal_SMD_HC49-SD,ABLS-24.000MHZ-B4-T,"24 MHz fundamental, CL 12 pF"
+1,Y2,8MHz,Crystal_SMD_HC49-SD,ABLS-8.000MHZ-B4-T,"8 MHz, CL 20 pF"

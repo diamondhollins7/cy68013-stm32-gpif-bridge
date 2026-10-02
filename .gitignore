@@ -1,0 +1,33 @@
+# Vendor datasheets (copyrighted, not redistributable)
+16-buses/hardware/DS_stm32f103rc.pdf
+16-buses/hardware/infineon-*.pdf
+
+# Cypress framework / CyAPI files are copied in locally (Cypress copyright)
+8-bus/firmware/fx2/cypress_fw/*
+!8-bus/firmware/fx2/cypress_fw/README.txt
+8-bus/host/cyapi/*
+!8-bus/host/cyapi/README.txt
+
+# Keil build output and per-user files
+**/Objects/
+**/Listings/
+**/RTE/
+*.uvguix.*
+*.uvoptx
+*.uvopt
+*.bak
+*.dep
+*.lst
+*.obj
+*.OBJ
+!8-bus/firmware/fx2/cypress_fw/README.txt
+
+# Visual Studio
+**/bin/
+**/obj/
+.vs/
+*.user
+
+# Python
+__pycache__/
+*.pyc
